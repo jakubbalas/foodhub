@@ -1,0 +1,10 @@
+[project]
+name = "foodhub_api"
+version = "0.1.0"
+description = "API for the foodhub project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "sqlalchemy>=2.0.35",
+]
