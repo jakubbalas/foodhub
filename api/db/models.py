@@ -1,10 +1,17 @@
-class Ingredient:
+from sqlalchemy.orm import DeclarativeBase
+
+
+class Base(DeclarativeBase):
     pass
 
 
-class Recipe:
+class Ingredient(Base):
     pass
 
 
-class MeasurementUnit:
+class Recipe(Base):
+    pass
+
+
+class MeasurementUnit(Base):
     pass
